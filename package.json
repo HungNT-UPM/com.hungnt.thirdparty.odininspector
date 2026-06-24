@@ -1,14 +1,14 @@
 {
-  "name": "com.hungnt.odininspector",
-  "displayName": "com.hungnt.odininspector",
-  "version": "3.1.14+3",
+  "name": "com.hungnt.thirdparty.odininspector",
+  "displayName": "HungNT 3rd-party: Odin Inspector",
+  "version": "3.1.14",
   "unity": "2022.3",
-  "description": "Odin Inspector & Serializer (Sirenix) bundled as UPM. Embedded marketing version from binaries: 3.1.14.2 — package semver uses build metadata \"+2\" (= patch revision). Layout: Runtime/Plugins/Sirenix.",
+  "description": "Odin Inspector and Serializer (Sirenix) bundled as UPM.",
+  "documentationUrl": "https://assetstore.unity.com/packages/tools/utilities/odin-inspector-and-serializer-89041",
   "dependencies": {},
   "keywords": ["Odin"],
   "author": {
     "name": "HungNT",
     "url": "https://github.com/HungNT-UPM"
-  },
-  "license": "See Sirenix / Odin Inspector Asset Store licence"
+  }
 }

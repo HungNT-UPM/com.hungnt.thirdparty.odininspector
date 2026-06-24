@@ -1,29 +1,22 @@
-# HungNT Odin Inspector (`com.hungnt.odininspector`)
+# HungNT 3rd-party: Odin Inspector
 
-UPM wrapper **Odin Inspector & Serializer** (Sirenix) — binaries dưới `Runtime/Plugins/Sirenix`. Version bundle: **3.1.14.2** (package semver `3.1.14+2`).
-
-> **License Asset Store** — không phân phối qua OpenUPM. Chỉ cài qua Git URL hoặc `file:` local.
+Asset gốc: [Odin Inspector and Serializer (Sirenix)](https://assetstore.unity.com/packages/tools/utilities/odin-inspector-and-serializer-89041)
 
 ## Cài đặt
 
-### GitHub
+Thêm vào `Packages/manifest.json`:
 
 ```json
-"com.hungnt.odininspector": "https://github.com/HungNT-UPM/com.hungnt.odininspector.git#v3.1.14+3"
+"com.hungnt.thirdparty.odininspector": "https://github.com/HungNT-UPM/com.hungnt.thirdparty.odininspector.git"
 ```
 
-## Dùng với HungNT packages
+Hoặc Package Manager → **Add package from git URL...**:
 
-Các package sau cần Odin (attributes, editor, serialization):
+```
+https://github.com/HungNT-UPM/com.hungnt.thirdparty.odininspector.git
+```
 
-- **`com.hungnt.core`** — ServiceLocator / ServiceRegister inspector  
-- **`com.hungnt.database`**, **`com.hungnt.eventdispatcher`**, **`com.hungnt.datasave`** — editor & demo  
+## Note
 
-Cài Odin **trước** hoặc cùng lúc với các package trên trong `manifest.json`.
-
-## Tài liệu
-
-- [Odin Inspector documentation](https://odininspector.com/documentation)
-- [Sirenix Serialization](https://odininspector.com/documentation/sirenix.serialization)
-
-Không có Demo assembly trong package — xem inspector Odin trên các component HungNT sau khi import.
+- Namespace gốc giữ nguyên: `Sirenix.OdinInspector`, `Sirenix.Serialization`, `Sirenix.Utilities`.
+- Binaries (Sirenix.*.dll) nằm dưới `Runtime/Plugins/Sirenix`.
